@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Magic 8 Ball Example</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <div>
+    <h1>Magic 8 Ball</h1>
+    <p>
+      Please enter your question below and press the button to shake the 8 Ball.
+    </p>
+
+    <center>
+      <form>
+        <input type="text" id="yourquestion">
+        <input type="button" onclick="shakeEightBall()" value="Shake Eight Ball">
+    </form>
+    </center>
+
+    </div>
+    <div id="writtenquestion">
+    </div>
+    <div class="eight-ball">
+        <div class="answer">
+          <p id="what-answer"></p>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
